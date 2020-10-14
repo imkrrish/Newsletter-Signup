@@ -1,0 +1,64 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased; 
+}
+
+body{
+    background-image: url(/images/dreams-3405257_1920.jpg);
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    font-family: new time roman;
+}
+
+h1{
+    font-size: 50px;
+    color: white;
+    text-align: center;
+}
+
+img{
+    width: 130px;
+    height: 130px;
+    margin-left: 200px;
+    margin-top: 20px;
+}
+
+.form-control{
+    background: transparent;
+    border-radius: 0px;
+    border: 0px;
+    border-bottom: 2px solid lightgreen;
+    font-size: 21px;
+    margin-top: 18px;
+    padding: 23px;
+    color: white;
+}
+
+.btn.info{
+    margin-top: 20px;
+    font-size: 21px;
+    width: 200px;
+    background: transparent;
+}
+
+.col-md-6{
+    box-shadow: -1px 1px 60px 10px black;
+    border-radius: 0px 100px 0px 100px;
+    margin-top: 100px;
+    height: 550px;
+    background: rgba(0,0,0,0.6);
+}
+
+.btn{
+    margin-top: 20px;
+}
+
+.container{
+    margin-right: auto;
+    margin-left: 50px;
+}
