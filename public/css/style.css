@@ -1,11 +1,11 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    -webkit-font-smoothing: antialiased; 
+    -webkit-font-smoothing: antialiased;
 }
 
-body{
+body {
     background-image: url(/images/dreams-3405257_1920.jpg);
     width: 100vw;
     height: 100vh;
@@ -13,22 +13,25 @@ body{
     background-repeat: no-repeat;
     overflow: hidden;
     font-family: new time roman;
+    background-attachment: fixed;
+    background-position: center;
 }
 
-h1{
-    font-size: 50px;
+h1 {
+    font-size-adjust: inherit;
     color: white;
     text-align: center;
 }
 
-img{
+img {
     width: 130px;
     height: 130px;
-    margin-left: 200px;
     margin-top: 20px;
+    margin-left: 35%;
+    margin-right: 40%;
 }
 
-.form-control{
+.form-control {
     background: transparent;
     border-radius: 0px;
     border: 0px;
@@ -39,26 +42,51 @@ img{
     color: white;
 }
 
-.btn.info{
+.btn.info {
     margin-top: 20px;
     font-size: 21px;
     width: 200px;
     background: transparent;
 }
 
-.col-md-6{
+.main {
     box-shadow: -1px 1px 60px 10px black;
     border-radius: 0px 100px 0px 100px;
     margin-top: 100px;
     height: 550px;
-    background: rgba(0,0,0,0.6);
+    background: rgba(0, 0, 0, 0.6);
+    max-width: 40%;
 }
 
-.btn{
+.btn {
     margin-top: 20px;
 }
 
-.container{
+.container {
     margin-right: auto;
     margin-left: 50px;
+}
+
+@media only screen and (max-width: 992px) and (min-width: 770px) {
+    .main {
+        max-width: 50%;
+    }
+}
+
+@media only screen and (max-width: 770px) and (min-width: 600px) {
+    .main {
+        max-width: 70%;
+    }
+}
+
+@media only screen and (max-width: 600px) and (min-width: 500px) {
+    .main {
+        max-width: 80%;
+    }
+}
+
+@media only screen and (max-width: 600px) and (min-width: 324px) {
+    .main {
+        max-width: 95%;
+    }
 }
