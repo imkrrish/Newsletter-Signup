@@ -11,7 +11,30 @@
 
 </head>
 
+<style>
+    body{
+        width: 100vw;
+        height: 100vh;
+        overflow: auto;
+    }
+
+    img{
+        width: 350px;
+        height: 350px;
+    }
+</style>
+
 <body>
+
+    <div class="jumbotron">
+        <img src="/images/oops-1432954_1280.png" alt="oops">
+        <h1 class="display-5">UH oh!</h1>
+        <p class="lead">There was a problem signing you up. Please try again or contact the developer!</p>
+        <hr class="my-4">
+        <form action="/failure" method="post">
+            <button class="btn btn-outline-warning btn-lg" type="submit"> Try again </button>
+        </form>
+    </div>
 
     <!-- bootstrapcdn js -->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
