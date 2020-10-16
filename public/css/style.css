@@ -5,13 +5,13 @@
     -webkit-font-smoothing: antialiased;
 }
 
-body {
+header {
     background-image: url(/images/dreams-3405257_1920.jpg);
     width: 100vw;
     height: 100vh;
     background-size: cover;
     background-repeat: no-repeat;
-    overflow: hidden;
+    overflow: auto;
     font-family: new time roman;
     background-attachment: fixed;
     background-position: center;
@@ -85,8 +85,51 @@ img {
     }
 }
 
-@media only screen and (max-width: 600px) and (min-width: 324px) {
+@media only screen and (max-width: 500px) and (min-width: 400px) {
     .main {
-        max-width: 95%;
+        max-width: 75%;
+    }
+}
+
+@media only screen and (max-width: 400px) and (min-width: 324px) {
+    header {
+        position: relative;
+    }
+    .main {
+        max-width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    h1{
+        font-size: 35px;
+    }
+    .container {
+        position: fixed;
+        margin: auto;
+    }
+    img{
+        margin-left: 25%;
+    }
+}
+
+@media only screen and (max-width: 324px) and (min-width: 0px) {
+    header {
+        position: relative;
+    }
+    .main {
+        max-width: 90%;
+        margin-top: 15%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    h1{
+        font-size: 35px;
+    }
+    .container {
+        position: fixed;
+        margin: auto;
+    }
+    img{
+        margin-left: 25%;
     }
 }
